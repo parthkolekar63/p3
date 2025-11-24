@@ -1,0 +1,8 @@
+New-Item -Path "c:/Users/asus/downloads/hi.txt" -ItemType File
+move-Item "c:/Users/asus/downloads/hi.txt" "c:/users/asus/downloads/gg"
+PS C:\Users\ASUS>remove-item "c:/users/asus/downloads/gg/hi.txt"
+  get-childitem c:/
+    set-content "c:/Users/asus/downloads/gg/hi.txt" "Hello"
+   Invoke-WebRequest -Uri "https://www.examle.com"
+    start-process -filepath "C:\Program Files\Internet Explorer\iexplore.exe"
+    get-content "c:/Users/asus/downloads/gg/hi.txt"
