@@ -1,0 +1,21 @@
+git config --global user.email "parthkolekar69@gmail.com"
+$ git commit -m "3"
+
+
+openssl rand -base64 12
+pwgen 12 10 
+openssl genrsa
+openssl genrsa -out filename.txt
+
+wget htttp://downloads.sourceforge.net/project/pentbox18realised/pentbox-1.8.tar.gx
+tar xvfz pentbox-1.8.tar.gz
+cd pentbox-1.8
+./pentbox.rb
+sudo lsof -i :80
+sudo kill -9 pid
+sudo lsof -i :24
+sudo kill -9 pid
+
+sudo apt install trivy
+trivy image python:3.4-alpine
+trivy image --severity HIGH python :3.4-alpine
